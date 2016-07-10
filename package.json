@@ -1,12 +1,12 @@
 {
-  "name": "FB LUCID Bot",
+  "name": "lucid_bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Abhishek Shenoy",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.0",
