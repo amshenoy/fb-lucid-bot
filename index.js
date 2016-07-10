@@ -15,12 +15,12 @@ app.use(bodyParser.json());
 
 // index
 app.get('/', function (req, res) {
-	res.send('hello world i am a secret bot');
+	res.send('LUCID - Langton Ultimate Cosmic Ray Intensity Detector');
 })
 
 // for facebook verification
 app.get('/webhook/', function (req, res) {
-	if (req.query['hub.verify_token'] === 'my_voice_is_my_password_verify_me') {
+	if (req.query['hub.verify_token'] === 'lucid_is_awesome') {
 		res.send(req.query['hub.challenge']);
 	}
 	res.send('Error, wrong token');
